@@ -1,3 +1,5 @@
+x=' ';
+
 person = input('Valitse käyttäjätunnus::')
 print(person, 'on jo varattu')
 toka = input('Valitse toinen käyttäjätunnus:')
@@ -8,7 +10,10 @@ salasana = input('Valitse salasana:')
 
 text_file = open("salasanat.txt", "w")
 text_file.write(toka)
+text_file.write(x)
 text_file.write(salasana)
 
 text_file.close()
-print 'Text file was created/edited'
+print ('Text file was created/edited')
+
+#ALPHA VERSION
