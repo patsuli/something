@@ -12,4 +12,4 @@ text_file.write(salasana)
 
 text_file.close()
 print 'Text file was created/edited'
-//Asser kävi täällä :D:D:D:D:D:D::DD ebinnnnnnnnnnnnNNNNNNnnnnnnn niin hyvää koodia
+#Asser kävi täällä :D:D:D:D:D:D::DD ebinnnnnnnnnnnnNNNNNNnnnnnnn niin hyvää koodia
