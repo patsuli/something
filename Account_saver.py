@@ -11,3 +11,4 @@ text_file.write(toka)
 text_file.write(salasana)
 
 text_file.close()
+print 'Text file was created/edited'
