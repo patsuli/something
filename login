@@ -1,9 +1,13 @@
-#login file. Edit this!
-user = input('Käyttäjänimi')
+user = input('Käyttäjänimi:')
 print (user)
-password = input('Salasana')
+password = input('Salasana:')
 print ('*****')
-if user == Keke
-if password == ruusperi
-print  ('succesfull login')
-#ei toimi saatana
+if user == "Keke":
+    print ("Hei, Keke")
+else:
+    print("Kuka vitun", user)
+if password == "ruusperi":
+    print ("Tervetuloa")
+
+else:
+    print("Yritä uudelleen")
