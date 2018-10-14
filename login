@@ -2,12 +2,14 @@ user = input('Käyttäjänimi:')
 print (user)
 password = input('Salasana:')
 print ('*****')
-if user == "Keke":
-    print ("Hei, Keke")
-else:
-    print("Kuka vitun", user)
-if password == "ruusperi":
-    print ("Tervetuloa")
 
+nameaccess = ("Tervetuloa, " + user)
+passfail = ("Väärä salasana saatana!")
+mismatch = ("Väärä nimi tai salasana, vituttas...")
+
+if user == "Keke" and password == "ruusperi":
+    print(nameaccess)
+elif user == "Keke" and password != "ruusperi":
+    print(passfail)
 else:
-    print("Yritä uudelleen")
+    print(mismatch)
