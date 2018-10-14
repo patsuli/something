@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 user = input('Käyttäjänimi:')
 print (user)
 password = input('Salasana:')
