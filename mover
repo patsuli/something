@@ -1,1 +1,8 @@
+from distutils.dir_util import copy_tree
 
+# copy subdirectory example
+fromDirectory = "/home/patrik/Asiakirjat"
+toDirectory = "/home/patrik/coding/mover"
+
+copy_tree(fromDirectory, toDirectory)
+print ("Done")
